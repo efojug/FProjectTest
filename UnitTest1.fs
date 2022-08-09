@@ -8,4 +8,4 @@ let Setup () =
 
 [<Test>]
 let Test1 () =
-    Assert.Pass()
+    printfn "Hello World!";;
